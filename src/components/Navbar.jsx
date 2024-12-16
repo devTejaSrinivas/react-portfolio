@@ -3,6 +3,7 @@ import logo from "../assets/logomts.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { FaTwitterSquare } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -14,6 +15,7 @@ const Navbar = () => {
         <FaLinkedin />
         <FaGithub />
         <FaInstagram />
+        <FaTwitterSquare />
       </div>
 
       {console.log("Component rendering")}
