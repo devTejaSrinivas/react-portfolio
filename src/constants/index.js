@@ -3,74 +3,66 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `A dedicated Computer Science major with a passion for technology and innovation, I bring expertise in both Full Stack Web Development and AI/ML Engineering. I excel at creating robust, dynamic web applications, from seamless user interfaces to powerful back-end architectures. Leveraging data, I design and implement intelligent solutions that solve complex problems. My goal is to merge my skills in web development and artificial intelligence to push the boundaries of technology and deliver impactful solutions. Let's connect and create something extraordinary together!`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `A dedicated and adaptable professional with a strong foundation in both technical and non-technical skills. Known for my logical thinking and problem-solving abilities, I excel in creating robust web applications and intelligent AI solutions. My proficiency in multiple programming languages and frameworks, coupled with my linguistic skills, enhances my ability to communicate complex ideas clearly and effectively. I thrive in team environments, adapting seamlessly to new challenges and collaborating with diverse groups to achieve common goals. My blend of technical expertise and soft skills makes me a well-rounded candidate, ready to make a significant impact in the IT industry.Proficient in the MERN stack (MongoDB, Express.js, React, and Node.js), I have a strong ability to build comprehensive web applications that are both user-friendly and efficient. My enthusiasm for AI and emerging technologies fuels my continuous learning and adaptation to new tools and methodologies. This passion not only drives me to innovate but also ensures that I stay at the forefront of technological advancements, ready to integrate cutting-edge solutions into my work. This blend of deep technical knowledge and forward-looking vision makes me a valuable asset to any IT team.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2022 - Present",
+    role: "Bachelors in CS and Engineering",
+    company: "CVR College of Engineering",
+    description: `Hav a CGPA of 9.0 and part of a team in developing and conducting various quiz events as a part of the LDC(Literary and Debate Club). Learnt many technical and non-technical skills through projects , seminars and tests under the guidance of our professors.`,
+    technologies: ["Leadership", "Technical", "Non-Technical", "Engineering"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "2020 - 2022",
+    role: "Intermediate in Maths , Physics and Chemistry",
+    company: "Narayana Jr. College",
+    description: `Passed out with 94.5 % .Studied various topics of the above subjects in depth with deep theoretical and practical understanding while preparing for various engineering entrance examinations.`,
+    technologies: ["Maths", "Physics", "Chemistry"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2008 - 2020",
+    role: "Indian Certificate of Secondary Education",
+    company: "St.Joseph's School",
+    description: `Passed out with 91% . Leant the foundational skills of various subjects.Extensively represented the school in events like Chess Tournaments and Quiz competitions.`,
+    technologies: ["ICSE", "Olympiad", "Sports", "Quiz"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Tic-Tac-Toe",
     image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    description: "A fully functional tic-tac-toe game with logic in Pure JS.",
+    technologies: ["HTML", "CSS", "Vanilla JS", "Git"],
   },
   {
-    title: "Task Management App",
+    title: "Falculty Information System",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking for Faculty of an instituition.",
+    technologies: ["HTML", "CSS", "Python", "Flask"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "CSS", "React", "Tailwind"],
   },
   {
-    title: "Blogging Platform",
+    title: "Snake Game",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A simple game similar to snake xenia which you can play for fun to score some points with features to maintain user state.",
+    technologies: ["HTML", "CSS", "Vanilla JS", "Git"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "📍Hyderabad , India 🇮🇳 ",
+  phoneNo: "+91 -7288990005",
+  email: "tejasrinivassjps@gmail.com",
 };
