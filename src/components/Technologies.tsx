@@ -14,6 +14,7 @@ import { IoLogoCss3 } from "react-icons/io";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { SiExpress, SiJupyter } from "react-icons/si";
 import { TbFileTypeSql } from "react-icons/tb";
+import { animate, motion } from "framer-motion";
 
 const Technologies = () => {
   return (
