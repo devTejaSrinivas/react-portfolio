@@ -45,6 +45,7 @@ const Hero = () => {
               src={profilePic}
               alt="Teja Srinivas"
               style={{ width: "450px", height: "450px" }}
+              className="rounded-xl"
             />
           </div>
         </div>
