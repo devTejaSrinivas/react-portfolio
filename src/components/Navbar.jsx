@@ -4,6 +4,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
+import { profile_links } from "../constants";
 
 const Navbar = () => {
   return (
@@ -12,10 +13,36 @@ const Navbar = () => {
         <img className="mx-1 w-20" src={logo} alt="Logo" />
       </div>
       <div className="m-8 flex items-center justify-center gap-4">
-        <FaLinkedin className="text-4xl" />
-        <FaGithub className="text-4xl" />
-        <FaInstagram className="text-4xl" />
-        <FaTwitterSquare className="text-4xl" />
+        <a
+          href={profile_links.linkedin}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaLinkedin className="text-4xl" />
+        </a>
+        <a
+          href={profile_links.github}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaGithub className="text-4xl" />
+        </a>
+
+        <a
+          href={profile_links.instagram}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaInstagram className="text-4xl" />
+        </a>
+
+        <a
+          href={profile_links.twitter}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaTwitterSquare className="text-4xl" />
+        </a>
       </div>
 
       {console.log("Component rendering")}

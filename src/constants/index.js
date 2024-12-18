@@ -66,3 +66,10 @@ export const CONTACT = {
   phoneNo: "+91 -7288990005",
   email: "tejasrinivassjps@gmail.com",
 };
+
+export const profile_links = {
+  linkedin: "https://www.linkedin.com/in/tejamajari",
+  github: "https://www.github.com/devTejaSrinivas",
+  instagram: "",
+  twitter: "https://www.x.com/Dev_Teja",
+};
