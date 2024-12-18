@@ -43,7 +43,7 @@ const Hero = () => {
               transition={{ duration: 1, delay: 1.2 }}
               src={profilePic}
               alt="Teja Srinivas"
-              style={{ width: "500px", height: "500px" }}
+              style={{ width: "450px", height: "450px" }}
             />
           </div>
         </div>
