@@ -16,59 +16,264 @@ import { SiExpress, SiJupyter } from "react-icons/si";
 import { TbFileTypeSql } from "react-icons/tb";
 import { animate, motion } from "framer-motion";
 
+const iconVariants = {
+  intial: { y: -10 },
+  animate: {
+    y: [10, -10],
+    transition: {
+      duration: 2.5,
+      ease: "linear",
+      repeat: Infinity,
+      repeatType: "reverse",
+    },
+  },
+};
+
 const Technologies = () => {
   return (
     <div className="border-b border-neutral-800 pb-24">
       <h2 className="my-20 text-center text-4xl">Tech Stack </h2>
-      <div className="flex flex-wrap items-center justify-center gap-4">
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+      <div className="flex flex-wrap items-center justify-center gap-8">
+        <motion.div
+          initial={{ y: -10 }} // Initial state
+          animate={{
+            y: [10, -10],
+            transition: {
+              duration: 2.5,
+              ease: "linear",
+              repeat: Infinity,
+              repeatType: "reverse",
+            },
+          }}
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
           <FaHtml5 className="text-7xl text-red-500" />
-        </div>
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+        </motion.div>
+        <motion.div
+          initial={{ y: -10 }} // Initial state
+          animate={{
+            y: [10, -10],
+            transition: {
+              duration: 3,
+              ease: "linear",
+              repeat: Infinity,
+              repeatType: "reverse",
+            },
+          }}
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
           <IoLogoCss3 className="text-7xl text-blue-700" />
-        </div>
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+        </motion.div>
+        <motion.div
+          initial={{ y: -10 }} // Initial state
+          animate={{
+            y: [10, -10],
+            transition: {
+              duration: 2.5,
+              ease: "linear",
+              repeat: Infinity,
+              repeatType: "reverse",
+            },
+          }}
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
           <FaJsSquare className="text-7xl text-yellow-400" />
-        </div>
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+        </motion.div>
+        <motion.div
+          initial={{ y: -10 }} // Initial state
+          animate={{
+            y: [10, -10],
+            transition: {
+              duration: 2.5,
+              ease: "linear",
+              repeat: Infinity,
+              repeatType: "reverse",
+            },
+          }}
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
           <FaReact className="text-7xl text-blue-400" />
-        </div>
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+        </motion.div>
+        <motion.div
+          initial={{ y: -10 }} // Initial state
+          animate={{
+            y: [10, -10],
+            transition: {
+              duration: 2.5,
+              ease: "linear",
+              repeat: Infinity,
+              repeatType: "reverse",
+            },
+          }}
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
           <SiExpress className="text-7xl text-gray-400" />
-        </div>
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+        </motion.div>
+        <motion.div
+          initial={{ y: -10 }} // Initial state
+          animate={{
+            y: [10, -10],
+            transition: {
+              duration: 2.5,
+              ease: "linear",
+              repeat: Infinity,
+              repeatType: "reverse",
+            },
+          }}
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
           <DiMongodb className="text-7xl text-green-400" />
-        </div>
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+        </motion.div>
+        <motion.div
+          initial={{ y: -10 }} // Initial state
+          animate={{
+            y: [10, -10],
+            transition: {
+              duration: 2.5,
+              ease: "linear",
+              repeat: Infinity,
+              repeatType: "reverse",
+            },
+          }}
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
           <FaNodeJs className="text-7xl text-green-400" />
-        </div>
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+        </motion.div>
+        <motion.div
+          initial={{ y: -10 }} // Initial state
+          animate={{
+            y: [10, -10],
+            transition: {
+              duration: 2.5,
+              ease: "linear",
+              repeat: Infinity,
+              repeatType: "reverse",
+            },
+          }}
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
           <FaJava className="text-7xl text-red-400" />
-        </div>
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+        </motion.div>
+        <motion.div
+          initial={{ y: -10 }} // Initial state
+          animate={{
+            y: [10, -10],
+            transition: {
+              duration: 2.5,
+              ease: "linear",
+              repeat: Infinity,
+              repeatType: "reverse",
+            },
+          }}
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
           <TbFileTypeSql className="text-7xl text-blue-400" />
-        </div>
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+        </motion.div>
+        <motion.div
+          initial={{ y: -10 }} // Initial state
+          animate={{
+            y: [10, -10],
+            transition: {
+              duration: 2.5,
+              ease: "linear",
+              repeat: Infinity,
+              repeatType: "reverse",
+            },
+          }}
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
           <FaPython className="text-7xl text-yellow-400" />
-        </div>
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+        </motion.div>
+        <motion.div
+          initial={{ y: -10 }} // Initial state
+          animate={{
+            y: [10, -10],
+            transition: {
+              duration: 2.5,
+              ease: "linear",
+              repeat: Infinity,
+              repeatType: "reverse",
+            },
+          }}
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
           <DiGit className="text-7xl text-red-400" />
-        </div>
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+        </motion.div>
+        <motion.div
+          initial={{ y: -10 }} // Initial state
+          animate={{
+            y: [10, -10],
+            transition: {
+              duration: 2.5,
+              ease: "linear",
+              repeat: Infinity,
+              repeatType: "reverse",
+            },
+          }}
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
           <FcLinux className="text-7xl text-gray-400" />
-        </div>
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+        </motion.div>
+        <motion.div
+          initial={{ y: -10 }} // Initial state
+          animate={{
+            y: [10, -10],
+            transition: {
+              duration: 2.5,
+              ease: "linear",
+              repeat: Infinity,
+              repeatType: "reverse",
+            },
+          }}
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
           <SiJupyter className="text-7xl text-orange-400" />
-        </div>
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+        </motion.div>
+        <motion.div
+          initial={{ y: -10 }} // Initial state
+          animate={{
+            y: [10, -10],
+            transition: {
+              duration: 2.5,
+              ease: "linear",
+              repeat: Infinity,
+              repeatType: "reverse",
+            },
+          }}
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
           <RiNextjsFill className="text-7xl text-white" />
-        </div>
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+        </motion.div>
+        <motion.div
+          initial={{ y: -10 }} // Initial state
+          animate={{
+            y: [10, -10],
+            transition: {
+              duration: 2.5,
+              ease: "linear",
+              repeat: Infinity,
+              repeatType: "reverse",
+            },
+          }}
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
           <RiTailwindCssFill className="text-7xl text-blue-400" />
-        </div>
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+        </motion.div>
+        <motion.div
+          initial={{ y: -10 }} // Initial state
+          animate={{
+            y: [10, -10],
+            transition: {
+              duration: 2.5,
+              ease: "linear",
+              repeat: Infinity,
+              repeatType: "reverse",
+            },
+          }}
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
           <DiWindows className="text-7xl text-blue-400" />
-        </div>
+        </motion.div>
       </div>
     </div>
   );
