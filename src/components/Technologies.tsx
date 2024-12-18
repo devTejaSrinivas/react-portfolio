@@ -32,7 +32,14 @@ const iconVariants = {
 const Technologies = () => {
   return (
     <div className="border-b border-neutral-800 pb-24">
-      <h2 className="my-20 text-center text-4xl">Tech Stack </h2>
+      <motion.h2
+        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, y: -100 }}
+        transition={{ duration: 1.5 }}
+        className="my-20 text-center text-4xl"
+      >
+        Tech Stack{" "}
+      </motion.h2>
       <div className="flex flex-wrap items-center justify-center gap-8">
         <motion.div
           initial={{ y: -10 }} // Initial state
@@ -54,7 +61,7 @@ const Technologies = () => {
           animate={{
             y: [10, -10],
             transition: {
-              duration: 3,
+              duration: 2.5,
               ease: "linear",
               repeat: Infinity,
               repeatType: "reverse",
