@@ -1,7 +1,9 @@
+import { link } from "framer-motion/client";
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import SnakeGame from "../assets/projects/SnakeGame.jpg";
 
 export const HERO_CONTENT = `A dedicated Computer Science major with a passion for technology and innovation, I bring expertise in both Full Stack Web Development and AI/ML Engineering. I excel at creating robust, dynamic web applications, from seamless user interfaces to powerful back-end architectures. Leveraging data, I design and implement intelligent solutions that solve complex problems. My goal is to merge my skills in web development and artificial intelligence to push the boundaries of technology and deliver impactful solutions. Let's connect and create something extraordinary together!`;
 
@@ -54,10 +56,11 @@ export const PROJECTS = [
   },
   {
     title: "Snake Game",
-    image: project4,
+    image: SnakeGame,
     description:
       "A simple game similar to snake xenia which you can play for fun to score some points with features to maintain user state.",
     technologies: ["HTML", "CSS", "Vanilla JS", "Git"],
+    link: "https://devtejasrinivas.github.io/snakegame/",
   },
 ];
 

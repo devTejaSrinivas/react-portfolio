@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "../assets/tejapic.png";
+import aboutImg from "../assets/AboutPic.png";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 const About = () => {
