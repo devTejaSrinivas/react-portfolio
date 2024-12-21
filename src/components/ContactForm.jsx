@@ -33,7 +33,7 @@ const ContactForm = () => {
     >
       <div className="mb-4">
         <label
-          className="block text-gray-700 text-sm font-bold mb-2"
+          className="block text-white text-sm font-bold mb-2"
           htmlFor="name"
         >
           Name
@@ -43,13 +43,14 @@ const ContactForm = () => {
           name="name"
           value={formData.name}
           onChange={handleChange}
-          className="w-full px-3 py-2 border rounded"
+          className="w-full px-3 py-2 border rounded text-black"
+          placeholder="Enter Your Name"
           required
         />
       </div>
       <div className="mb-4">
         <label
-          className="block text-gray-700 text-sm font-bold mb-2"
+          className="block text-white text-sm font-bold mb-2"
           htmlFor="email"
         >
           Email
@@ -59,13 +60,14 @@ const ContactForm = () => {
           name="email"
           value={formData.email}
           onChange={handleChange}
-          className="w-full px-3 py-2 border rounded"
+          className="w-full px-3 py-2 border rounded text-black"
+          placeholder="Enter Your Email"
           required
         />
       </div>
       <div className="mb-4">
         <label
-          className="block text-gray-700 text-sm font-bold mb-2"
+          className="block text-white text-sm font-bold mb-2"
           htmlFor="message"
         >
           Message
@@ -74,7 +76,8 @@ const ContactForm = () => {
           name="message"
           value={formData.message}
           onChange={handleChange}
-          className="w-full px-3 py-2 border rounded"
+          className="w-full px-3 py-2 border rounded text-black"
+          placeholder="Ask me Something !!!"
           required
         />
       </div>
