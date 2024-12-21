@@ -34,7 +34,9 @@ const ContactForm = () => {
 
   return (
     <div className="max-w-xl mx-auto p-4 border rounded shadow-md">
-      <h1 className="text-2xl font-bold text-center my-4">Contact Us</h1>
+      <h1 className="text-2xl font-bold text-center my-4">
+        Ask Me Something 🤪 !
+      </h1>
       {successMessage && (
         <div className="bg-green-500 text-white font-bold py-2 px-4 mb-4 rounded">
           {successMessage}
