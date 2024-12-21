@@ -7,7 +7,7 @@ import { MdEmail } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <div className="border-b border-neutral-50 pb-20">
+    <div className="border-b border-neutral-50 pb-20" id="contact">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
