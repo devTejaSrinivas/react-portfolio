@@ -21,7 +21,10 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:5000/api/messages", formData);
+      await axios.post(
+        "https://react-portfolio-backend-gk0u.onrender.com",
+        formData
+      );
       setSuccessMessage("Message sent successfully!");
       setFormData({ name: "", email: "", message: "" }); // Reset the form
       setTimeout(() => {
