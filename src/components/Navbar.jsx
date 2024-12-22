@@ -16,7 +16,7 @@ const Navbar = () => {
         <img className="mx-1 w-20" src={logo} alt="Logo" />
       </div>
 
-      <div className="flex items-center justify-center gap-4 px-6 py-2 bg-neutral-900 rounded-3xl shadow-lg">
+      <div className="flex items-center justify-center gap-4 px-6 py-2 bg-neutral-900 rounded-3xl shadow-lg sm:hidden md:block">
         <Link
           activeClass="active"
           to="about"
