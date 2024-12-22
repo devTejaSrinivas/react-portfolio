@@ -22,7 +22,7 @@ const ContactForm = () => {
     e.preventDefault();
     try {
       await axios.post(
-        "https://react-portfolio-backend-gk0u.onrender.com",
+        "https://react-portfolio-backend-3afm.onrender.com",
         formData
       );
       setSuccessMessage("Message sent successfully!");
