@@ -7,6 +7,8 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 const app = express();
+const port = process.env.PORT || 5000;
+
 app.use(bodyParser.json());
 app.use(cors());
 
@@ -30,6 +32,6 @@ app.post("/api/messages", async (req, res) => {
   res.status(201).send("Message saved");
 });
 
-app.listen(5000, () => {
+app.listen(port, () => {
   console.log("Server is running on port 5000");
 });
