@@ -75,6 +75,8 @@ This is a portfolio website built using the MERN (MongoDB, Express, React, Node.
 
 Feel free to contact me at [tejasrinivassjps@gmail.com](mailto:tejasrinivassjps@gmail.com) if you have any questions or suggestions.
 
+Please 🥺 Star  🌟 this repo.
+
 ---
 
-Happy coding!
+Happy coding 🎉!
