@@ -6,12 +6,12 @@ This is a portfolio website built using the MERN (MongoDB, Express, React, Node.
 
 ## Features 👇
 
-✅ Built using development framework Vite
-✅ Responsive design
-✅ Interactive UI
-✅ Project showcase
-✅ Contact form
-✅ Framer Motion Animation
+- ✅ Built using development framework Vite
+- ✅ Responsive design
+- ✅ Interactive UI
+- ✅ Project showcase
+- ✅ Contact form
+- ✅ Framer Motion Animation
 
 ## Technologies Used ⚙️
 
