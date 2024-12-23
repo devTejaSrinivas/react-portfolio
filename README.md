@@ -1,19 +1,19 @@
 # MERN Stack Based Portfolio Website
 
-## Description
+## Description 👩‍💻
 
 This is a portfolio website built using the MERN (MongoDB, Express, React, Node.js) stack. The website showcases my projects, skills, and experiences.
 
-## Features
+## Features 👇
 
-- Built using development framework Vite
-- Responsive design
-- Interactive UI
-- Project showcase
-- Contact form
-- Framer Motion Animation
+✅ Built using development framework Vite
+✅ Responsive design
+✅ Interactive UI
+✅ Project showcase
+✅ Contact form
+✅ Framer Motion Animation
 
-## Technologies Used
+## Technologies Used ⚙️
 
 - MongoDB: NoSQL database for storing user data and project details
 - Express: Backend framework for handling API requests
@@ -23,7 +23,7 @@ This is a portfolio website built using the MERN (MongoDB, Express, React, Node.
 - Axios: HTTP client for making API requests
 - Tailwind CSS: (Choose one) CSS framework for responsive design
 
-## Installation
+## Installation ⬇️
 
 1. Clone the repository:
 
@@ -53,7 +53,7 @@ This is a portfolio website built using the MERN (MongoDB, Express, React, Node.
      PORT=5000
      ```
 
-## Usage
+## Usage 🤖
 
 1. Start the backend server:
 
@@ -71,7 +71,7 @@ This is a portfolio website built using the MERN (MongoDB, Express, React, Node.
 
 3. Open your browser and navigate to `http://localhost:5173` to view the website.
 
-## Contact
+## Contact 📞
 
 Feel free to contact me at [tejasrinivassjps@gmail.com](mailto:tejasrinivassjps@gmail.com) if you have any questions or suggestions.
 
