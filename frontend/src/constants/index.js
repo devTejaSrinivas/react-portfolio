@@ -4,6 +4,7 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import SnakeGame from "../assets/projects/SnakeGame.jpg";
+import SmartSummarizer from "../assets/projects/SmartSummarizer.png";
 
 export const HERO_CONTENT = `A dedicated Computer Science major with a passion for technology and innovation, I bring expertise in both Full Stack Web Development and AI/ML Engineering. I excel at creating robust, dynamic web applications, from seamless user interfaces to powerful back-end architectures. Leveraging data, I design and implement intelligent solutions that solve complex problems. My goal is to merge my skills in web development and artificial intelligence to push the boundaries of technology and deliver impactful solutions. Let's connect and create something extraordinary together!`;
 
@@ -36,10 +37,10 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Smart Summarizer",
-    image: project1,
+    image: SmartSummarizer,
     description:
-      "An AI-based chrome extension to get an instant summary using a keyboard shortcut . ",
-    technologies: ["HTML", "CSS", "Vanilla JS", "Git"],
+      "An AI-based chrome extension to get an instant summary using a keyboard shortcut . Built for MLH Hack for Hacks with international collaboration. ",
+    technologies: ["Chrome Dev Tools", "HTML", "CSS", "JS", "AI"],
     link: "https://devpost.com/software/smartsummarizer",
   },
   {
