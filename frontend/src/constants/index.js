@@ -35,9 +35,10 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Tic-Tac-Toe",
+    title: "Smart Summarizer",
     image: project1,
-    description: "A fully functional tic-tac-toe game with logic in Pure JS.",
+    description:
+      "An AI-based chrome extension to get an instant summary using a keyboard shortcut",
     technologies: ["HTML", "CSS", "Vanilla JS", "Git"],
   },
   {
