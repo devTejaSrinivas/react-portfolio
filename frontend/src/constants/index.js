@@ -38,7 +38,7 @@ export const PROJECTS = [
     title: "Smart Summarizer",
     image: project1,
     description:
-      "An AI-based chrome extension to get an instant summary using a keyboard shortcut",
+      "An AI-based chrome extension to get an instant summary using a keyboard shortcut . ",
     technologies: ["HTML", "CSS", "Vanilla JS", "Git"],
   },
   {
