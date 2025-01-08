@@ -40,6 +40,7 @@ export const PROJECTS = [
     description:
       "An AI-based chrome extension to get an instant summary using a keyboard shortcut . ",
     technologies: ["HTML", "CSS", "Vanilla JS", "Git"],
+    link: "https://devpost.com/software/smartsummarizer",
   },
   {
     title: "Falculty Information System",
