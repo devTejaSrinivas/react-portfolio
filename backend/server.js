@@ -11,16 +11,20 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 app.use(bodyParser.json());
+
 app.use(
   cors({
-    origin: "https://tejasrinivas.netlify.app",
+    origin: "*", // Allow requests from any origin
   })
 );
 
-mongoose.connect(process.env.MONGO_URI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+mongoose
+  .connect(process.env.MONGO_URI)
+  .then(() => console.log("✅ MongoDB connected"))
+  .catch((err) => {
+    console.error("❌ MongoDB connection error:", err);
+    process.exit(1);
+  });
 
 const MessageSchema = new mongoose.Schema({
   name: String,

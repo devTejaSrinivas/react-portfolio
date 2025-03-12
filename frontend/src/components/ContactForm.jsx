@@ -99,6 +99,7 @@ const ContactForm = () => {
         <button
           type="submit"
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          onClick={handleSubmit}
         >
           Send
         </button>
@@ -108,3 +109,5 @@ const ContactForm = () => {
 };
 
 export default ContactForm;
+
+//"https://react-portfolio-backend-3afm.onrender.com/api/messages"
