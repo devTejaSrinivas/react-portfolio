@@ -3,6 +3,8 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const dotenv = require("dotenv"); // package used to load the environment variables as needed
+const nodemailer = require("nodemailer"); // Used to send mails from the server
+const { info } = require("console");
 
 dotenv.config(); // Loads the variables into the process.env object , which can be used to access the variables
 
@@ -18,6 +20,17 @@ app.use(
   })
 );
 
+// Email Configuration
+
+const transporter = nodemailer.createTransport({
+  service: "gmail",
+  auth: {
+    user: process.env.EMAIL_USER,
+    pass: process.env.EMAIL_PASS,
+  },
+});
+
+// Connection with the MongoDB Atlas database
 mongoose
   .connect(process.env.MONGO_URI)
   .then(() => console.log("✅ MongoDB connected"))
@@ -47,4 +60,39 @@ app.post("/api/messages", async (req, res) => {
 
 app.listen(port, () => {
   console.log("Server is running on port 5000");
+});
+
+// Listen for changes in MongoDB
+
+const db = mongoose.connection;
+db.once("open", () => {
+  const collection = db.collection("messages");
+  const changeStream = collection.watch();
+
+  console.log("Listening for changes in the DB");
+  changeStream.on("change", (change) => {
+    if (change.operationType === "insert") {
+      const newRecord = change.fullDocument;
+
+      // Mail template
+      const mailOptions = {
+        from: process.env.EMAIL_USER,
+        to: "dev.engineer.tej@gmail.com",
+        subject: "New message",
+        text: `A new message is added \n\n ${JSON.stringify(
+          newRecord,
+          null,
+          2
+        )}`,
+      };
+
+      transporter.sendMail(mailOptions, (err, info) => {
+        if (err) {
+          console.error("Error sending email ", err);
+        } else {
+          console.log("Email sent : ", info.response);
+        }
+      });
+    }
+  });
 });
