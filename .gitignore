@@ -4,4 +4,6 @@
 
 /backend/node_modules
 
+/backend/.gitignore
+
 notes.txt
