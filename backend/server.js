@@ -77,7 +77,7 @@ db.once("open", () => {
       // Mail template
       const mailOptions = {
         from: process.env.EMAIL_USER,
-        to: "dev.engineer.tej@gmail.com",
+        to: "tejasrinivassjps@gmail.com",
         subject: "New message",
         text: `A new message is added \n\n ${JSON.stringify(
           newRecord,
