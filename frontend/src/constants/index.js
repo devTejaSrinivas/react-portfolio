@@ -5,6 +5,7 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import SnakeGame from "../assets/projects/SnakeGame.jpg";
 import SmartSummarizer from "../assets/projects/SmartSummarizer.png";
+import brainwave from "../assets/projects/KalRavLogo.svg";
 
 export const HERO_CONTENT = `A dedicated Computer Science major with a passion for technology and innovation, I bring expertise in both Full Stack Web Development and AI/ML Engineering. I excel at creating robust, dynamic web applications, from seamless user interfaces to powerful back-end architectures. Leveraging data, I design and implement intelligent solutions that solve complex problems. My goal is to merge my skills in web development and artificial intelligence to push the boundaries of technology and deliver impactful solutions. Let's connect and create something extraordinary together!`;
 
@@ -36,34 +37,39 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Smart Summarizer",
-    image: SmartSummarizer,
+    id: 1,
+    title: "KalRav - the Mental Health AI Tracker ",
     description:
-      "An AI-based chrome extension to get an instant summary using a keyboard shortcut . Built for MLH Hack for Hacks with international collaboration. ",
-    technologies: ["Chrome Dev Tools", "HTML", "CSS", "JS", "AI"],
-    link: "https://devpost.com/software/smartsummarizer",
+      "A conversational AI chatbot using NLP and machine learning to provide intelligent responses.",
+    image: brainwave,
+    technologies: [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "NLP",
+      "Python",
+      "Express JS",
+      "AI",
+    ],
+    link: "https://github.com/Kaushik-2802/mental-health-AI",
   },
   {
-    title: "Falculty Information System",
-    image: project2,
+    id: 2,
+    title: "Task Manager App",
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking for Faculty of an instituition.",
-    technologies: ["HTML", "CSS", "Python", "Flask"],
+      "A sleek and modern task management app with drag-and-drop support and real-time synchronization.",
+    image: "/projects/task-manager.png",
+    technologies: ["Vue.js", "Firebase", "TailwindCSS"],
+    link: "https://github.com/yourusername/task-manager",
   },
   {
-    title: "Portfolio Website",
-    image: project3,
+    id: 3,
+    title: "Crypto Price Tracker",
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Tailwind"],
-  },
-  {
-    title: "Snake Game",
-    image: SnakeGame,
-    description:
-      "A simple game similar to snake xenia which you can play for fun to score some points with features to maintain user state.",
-    technologies: ["HTML", "CSS", "Vanilla JS", "Git"],
-    link: "https://devtejasrinivas.github.io/snakegame/",
+      "Live cryptocurrency price tracking application with interactive charts and market trends.",
+    image: "/projects/crypto-tracker.png",
+    technologies: ["Next.js", "D3.js", "CoinGecko API"],
+    link: "https://github.com/yourusername/crypto-tracker",
   },
 ];
 
