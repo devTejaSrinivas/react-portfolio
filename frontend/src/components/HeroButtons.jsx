@@ -11,7 +11,7 @@ const HeroButtons = () => {
       </a>
 
       <a
-        href="/resume.pdf" // Update this with your resume file path
+        href="src/assets/resume.pdf" // Update this with your resume file path
         download
         className="px-6 py-3 text-white font-semibold bg-[#5b18e7] rounded-md transition duration-300 hover:bg-[#4311b3]"
       >
