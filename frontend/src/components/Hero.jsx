@@ -3,6 +3,7 @@ import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/heropic.png";
 import TypewriterText from "./TypewriterText";
 import { motion } from "framer-motion";
+import HeroButtons from "./HeroButtons";
 
 const conatiner = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -25,6 +26,8 @@ const Hero = () => {
               Majari Teja Srinivas
             </motion.h1>
             <TypewriterText />
+            <HeroButtons />
+
             <motion.p
               variants={conatiner(1)}
               initial="hidden"
