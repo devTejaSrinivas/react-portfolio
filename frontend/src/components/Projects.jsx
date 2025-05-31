@@ -1,4 +1,4 @@
-import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { PROJECTS } from "../constants";
 
 const Projects = () => {
@@ -24,7 +24,7 @@ const Projects = () => {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110"
                 />
               </div>
 
@@ -44,16 +44,26 @@ const Projects = () => {
                 <p className="text-muted-foreground text-sm mb-4">
                   {project.description}
                 </p>
+
                 <div className="flex justify-between items-center">
-                  <div className="flex space-x-3">
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm font-medium border border-border px-4 py-2 rounded-md hover:bg-muted transition"
+                  >
+                    Live Preview
+                  </a>
+                  {project.github && (
                     <a
-                      href={project.link}
+                      href={project.github}
                       target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                      rel="noopener noreferrer"
+                      className="text-sm font-medium border border-border px-4 py-2 rounded-md hover:bg-muted transition"
                     >
-                      <ExternalLink size={20} />
+                      Source Code
                     </a>
-                  </div>
+                  )}
                 </div>
               </div>
             </div>

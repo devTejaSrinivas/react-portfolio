@@ -40,7 +40,7 @@ export const PROJECTS = [
     id: 1,
     title: "KalRav - the Mental Health AI Tracker ",
     description:
-      "A conversational AI chatbot using NLP and machine learning to provide intelligent responses.",
+      "A conversational AI chatbot using NLP and machine learning to track mental health of a patient.",
     image: brainwave,
     technologies: [
       "React",
@@ -51,25 +51,28 @@ export const PROJECTS = [
       "Express JS",
       "AI",
     ],
-    link: "https://github.com/Kaushik-2802/mental-health-AI",
+    link: "https://kalravhealth.netlify.app",
+    github: "https://github.com/Kaushik-2802/mental-health-AI",
   },
   {
     id: 2,
-    title: "Task Manager App",
+    title: "Basho",
     description:
-      "A sleek and modern task management app with drag-and-drop support and real-time synchronization.",
+      "A modern chat app for tourists to explore landmarks in depth in real time .",
     image: "/projects/task-manager.png",
-    technologies: ["Vue.js", "Firebase", "TailwindCSS"],
-    link: "https://github.com/yourusername/task-manager",
+    technologies: ["MongoDB", "Firebase", "TailwindCSS"],
+    link: "https://bashostories.netlify.app",
+    github: "https://github.com/devTejaSrinivas/Basho",
   },
   {
     id: 3,
-    title: "Crypto Price Tracker",
+    title: "SmartSummarizer",
     description:
-      "Live cryptocurrency price tracking application with interactive charts and market trends.",
+      "A chrome extension that smartly summarizes sselected text when a keyboard shortcut is used",
     image: "/projects/crypto-tracker.png",
     technologies: ["Next.js", "D3.js", "CoinGecko API"],
-    link: "https://github.com/yourusername/crypto-tracker",
+    link: "https://github.com/devTejaSrinivas/SmartSummarizer",
+    github: "https://github.com/devTejaSrinivas/SmartSummarizer",
   },
 ];
 
