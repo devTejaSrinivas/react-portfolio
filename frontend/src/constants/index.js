@@ -5,7 +5,8 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import SnakeGame from "../assets/projects/SnakeGame.jpg";
 import SmartSummarizer from "../assets/projects/SmartSummarizer.png";
-import brainwave from "../assets/projects/KalRavLogo.svg";
+import kalravlogo from "../assets/projects/KalRavLogo.svg";
+import bashologo from "../assets/projects/bashologo.png";
 
 export const HERO_CONTENT = `A dedicated Computer Science major with a passion for technology and innovation, I bring expertise in both Full Stack Web Development and AI/ML Engineering. I excel at creating robust, dynamic web applications, from seamless user interfaces to powerful back-end architectures. Leveraging data, I design and implement intelligent solutions that solve complex problems. My goal is to merge my skills in web development and artificial intelligence to push the boundaries of technology and deliver impactful solutions. Let's connect and create something extraordinary together!`;
 
@@ -41,7 +42,7 @@ export const PROJECTS = [
     title: "KalRav - the Mental Health AI Tracker ",
     description:
       "A conversational AI chatbot using NLP and machine learning to track mental health of a patient.",
-    image: brainwave,
+    image: kalravlogo,
     technologies: [
       "React",
       "Node.js",
@@ -59,7 +60,7 @@ export const PROJECTS = [
     title: "Basho",
     description:
       "A modern chat app for tourists to explore landmarks in depth in real time .",
-    image: "/projects/task-manager.png",
+    image: bashologo,
     technologies: ["MongoDB", "Firebase", "TailwindCSS"],
     link: "https://bashostories.netlify.app",
     github: "https://github.com/devTejaSrinivas/Basho",
