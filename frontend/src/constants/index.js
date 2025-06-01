@@ -7,6 +7,7 @@ import SnakeGame from "../assets/projects/SnakeGame.jpg";
 import SmartSummarizer from "../assets/projects/SmartSummarizer.png";
 import kalravlogo from "../assets/projects/KalRavLogo.svg";
 import bashologo from "../assets/projects/bashologo.png";
+import smartsummarizerlogo from "../assets/projects/SmartSummarizer.png";
 
 export const HERO_CONTENT = `A dedicated Computer Science major with a passion for technology and innovation, I bring expertise in both Full Stack Web Development and AI/ML Engineering. I excel at creating robust, dynamic web applications, from seamless user interfaces to powerful back-end architectures. Leveraging data, I design and implement intelligent solutions that solve complex problems. My goal is to merge my skills in web development and artificial intelligence to push the boundaries of technology and deliver impactful solutions. Let's connect and create something extraordinary together!`;
 
@@ -70,7 +71,7 @@ export const PROJECTS = [
     title: "SmartSummarizer",
     description:
       "A chrome extension that smartly summarizes sselected text when a keyboard shortcut is used",
-    image: "/projects/crypto-tracker.png",
+    image: smartsummarizerlogo,
     technologies: ["Next.js", "D3.js", "CoinGecko API"],
     link: "https://github.com/devTejaSrinivas/SmartSummarizer",
     github: "https://github.com/devTejaSrinivas/SmartSummarizer",
